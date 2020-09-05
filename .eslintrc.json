@@ -1,0 +1,27 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "google"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "max-len": ["error", { "code": 100 , "ignoreStrings": true}],
+        "require-jsdoc":"off",
+        "linebreak-style": "off",
+        "react/prop-types": "off",
+        "react/display-name": "off"
+    }
+}
